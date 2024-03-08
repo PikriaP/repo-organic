@@ -1,0 +1,25 @@
+.nav {
+    display:inline-block;
+}
+
+.nav-li-item {
+    display: inline-block;
+}
+
+.header-wraper {
+    height: 191.72px;
+    width: 100%;
+    color: #FFFFFF;
+}
+.nav-block {
+    position: fixed;
+    width: 1595.79px;
+    height: 53.72PX;
+    padding: 69px 162px 69px 162px;
+    z-index: 100;
+    gap: 130px;
+
+}
+.nav {
+  height: ;
+}
