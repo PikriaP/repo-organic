@@ -1,0 +1,22 @@
+/* fonts */
+
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Bold.woff2) format('woff2'),
+        url('Roboto-Bold.woff') format('woff'),
+        url('Roboto-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Yellowtail';
+    src: url(../fonts/Yellowtail-Regular.woff2) format('woff2'),
+        url('Yellowtail-Regular.woff') format('woff'),
+        url('Yellowtail-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

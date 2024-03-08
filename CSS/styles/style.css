@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+
+
 /* header styles */
+
 .nav {
-    display:inline-block;
+    display: inline-block;
 }
 
 .nav-li-item {
@@ -10,12 +15,15 @@
     font-size: 20px;
     line-height: 23.44px;
     color: #274C5B;
+    margin-top: 15.36px;
 }
 
 .header-wraper {
     height: 191.72px;
     width: 100%;
     color: #FFFFFF;
+    position: fixed;
+    z-index: 101;
 }
 .organic {
     font-family: 'Roboto';
@@ -32,7 +40,7 @@
     position: fixed;
     width: 1595.79px;
     height: 53.72PX;
-    padding: 69px 162px 69px 162px;
+    margin: 69px 162px 69px 162px;
     z-index: 100;
     color: #274C5B;
     
@@ -41,7 +49,7 @@
 .nav {
   height: 23px;
   width: 564px;
-  margin-top: 15.36px;
+  padding-top: 15.36px;
   margin-left: 348.79px;
 
 }
@@ -58,10 +66,68 @@
 
 /* main-block-wrapper styles */  
 .main-block-wrapper {
-    width: 1,400px;
-    height: 1,005px;
-    margin-top: 241px;
+    width: 1400px;
+    height: 1005px;
+    padding-top: 641px;
     margin: 0 auto;
-    color: lightblue;
+    position: relative;
 
 }
+ .upper-block {
+    width: 1400px;
+    height: 579px;
+    gap: 51px
+
+ }
+ .left-block {
+    width: 671px;
+    height: 258px;
+    margin-top: 160.5px;
+    display: inline-block;
+    justify-content: space-around;
+ }
+ .h1{
+   font-family: 'roboto';
+   font-weight: 800;
+   color: #525C60;
+   font-size: 50px;
+   line-height: 58.59px;
+ }
+ .why-us{
+    font-family: 'Yellowtail';
+    font-weight: 400;
+    font-style: normal;
+    color: #7EB693;
+    font-size: 36px;
+    line-height: 49.06px;
+ }
+ .right-block {
+    width: 671px;
+    height: 579px;
+    display: inline-block;
+ }
+
+ /* lower-box-wrapper styles */
+ .lower-box-wrapper {
+    width: 1118px;
+    height: 335px;
+    padding-top: 91px;
+    padding-bottom: 0px;
+    margin: 0 auto;
+    justify-content: space-between;
+ }
+
+ .box {
+    width: 275px;
+    height: 335px;
+    display: inline-block;
+ }
+ .h4 {
+    padding: 22px 29px 83px 277px;
+ }
+
+ .box-text { 
+    justify-content: space-around;
+    padding: 78px 36px ;
+ }
+
